@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "BUSINESS_NAME": "Vicks Dental Clinic ",
+    "TEMPLATE_ID": "dentist-modern",
+    "MODULES": "E-commerce,Gallery,Booking,booking,staff",
+    "THEME": "Light"
+  }
+}
